@@ -129,7 +129,7 @@
 							
 							<span v-if="showReply[item.floornum-2][item.floornum]==true" >
 							<textarea v-model="reply_te" ></textarea>
-		        			<button @click="submitreply(item.floornum,item.tieziid,item.userid)" class="comment-submit">回复层主</button>
+		        			<button @click="submitreply(item.floornum,item.tieziid,item.userid)" class="comment-submit">回复层主111</button>
 							</span>
 
 
