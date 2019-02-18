@@ -53,7 +53,7 @@
   "deprecated": false,
   "description": "Leaner CSS",
   "devDependencies": {
-    "bootstrap": "3.3.7",
+    "bootstrap": ">=3.4.0",
     "bootstrap-less-port": "0.3.0",
     "diff": "^3.2.0",
     "git-rev": "^0.2.1",
