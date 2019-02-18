@@ -175,7 +175,7 @@
             	this.$refs.popup.style.visibility = 'hidden';
         		this.$refs.popup.style.opacity = 0;
             	console.log(this.deleteItem.id)
-            	var url = "http://211.159.186.183/model/user.php";
+            	var url = "http://sornhub.com/model/user.php";
 				let formData = new FormData();
 				formData.append('mode',1)
 				formData.append('script_id',this.deleteItem.id)
@@ -232,7 +232,7 @@
 			},
         	loadRes(id){
 				//弹出结果框
-				var url = "http://211.159.186.183/model/user.php";
+				var url = "http://sornhub.com/model/user.php";
 				let formData = new FormData();
 			
 				formData.append('result_id',id)
@@ -252,7 +252,7 @@
         	if(arr1==null||arr1[2]==0){
         		this.$router.push('/login')
         	}
-        	var url = "http://211.159.186.183/model/user.php";
+        	var url = "http://sornhub.com/model/user.php";
 			let formData = new FormData();
 			var arr = document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"));
 			//console.log(arr[2])

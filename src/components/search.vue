@@ -30,7 +30,7 @@
         methods: {
             search(searchTerm) {
             document.cookie="content_search"+"="+this.searchTerm
-            var url = "http://211.159.186.183/model/search.php"; 
+            var url = "http://sornhub.com/model/search.php"; 
             let formData = new FormData();
             if(this.searchTerm!=""){
                 formData.append('search_key', this.searchTerm);

@@ -120,7 +120,7 @@
             },
             labelSolved(id,typeid){
 				//todo 数据库标记该问题已解决
-				var url = "http://211.159.186.183/model/admin.php";
+				var url = "http://sornhub.com/model/admin.php";
 				let formData = new FormData();
 				
 				var arr2=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))
@@ -174,7 +174,7 @@
             }
 		},
 		beforeMount: function(){  //进入script界面前 把script_id post给后台 收到信息显示在前台上
-            var url = "http://211.159.186.183/model/admin.php";
+            var url = "http://sornhub.com/model/admin.php";
 			let formData = new FormData();
 			var arr2=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))
 			

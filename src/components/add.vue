@@ -91,7 +91,7 @@
                 if(this.projectName!=''&&this.projectDesc!=''){
                 if(this.parameterCount==0){
                 //todo 新建工程 服务器添加文件夹 + 跳转到编辑器页面 页面特殊处理 编辑特定编号的脚本工程
-                var url = "http://211.159.186.183/model/script.php";
+                var url = "http://sornhub.com/model/script.php";
                 var user_ID=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))
                 this.$http.options.emulateJSON = true;
                 let formData = new FormData();
@@ -130,7 +130,7 @@
                     }
                     }
                         if(temp_j){
-                        var url = "http://211.159.186.183/model/script.php";
+                        var url = "http://sornhub.com/model/script.php";
                         var user_ID=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))
                         let formData = new FormData();
                         var temp_paranames=''

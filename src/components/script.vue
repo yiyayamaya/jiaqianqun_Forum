@@ -301,7 +301,7 @@
 				if(this.alreadyLoved == false){
 					var user_status = document.cookie.match(new RegExp("(^| )"+"user_status"+"=([^;]*)(;|$)"));
 					if(user_status!=null&&user_status[2]==1){
-					var url = "http://211.159.186.183/model/user.php";
+					var url = "http://sornhub.com/model/user.php";
 					let formData = new FormData();
 					var user_ID = document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))[2];
 
@@ -328,7 +328,7 @@
 			
 			//发表主题帖
 			submitComment(){
-			var url = "http://211.159.186.183/model/script.php";
+			var url = "http://sornhub.com/model/script.php";
 			var user_status=document.cookie.match(new RegExp("(^| )"+"user_status"+"=([^;]*)(;|$)"))
 			if(user_status!=null&&user_status[2]==1){
 			var user_ID=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))[2]
@@ -379,7 +379,7 @@
 		       }
 		        },
         	report(){
-        		var url = "http://211.159.186.183/model/script.php";
+        		var url = "http://sornhub.com/model/script.php";
         		var user_status=document.cookie.match(new RegExp("(^| )"+"user_status"+"=([^;]*)(;|$)"))
         		if(user_status!=null&&user_status[2]==1){
         		var arr2=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))
@@ -417,7 +417,7 @@
         	}
 
         },beforeMount: function(){
-			var url = "http://211.159.186.183/model/script.php";
+			var url = "http://sornhub.com/model/script.php";
 			//url="http://120.76.197.133/model/script.php";
 			let formData = new FormData();
 			var arr1=document.cookie.match(new RegExp("(^| )"+"user_status"+"=([^;]*)(;|$)"))

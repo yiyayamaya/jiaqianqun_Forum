@@ -80,7 +80,7 @@ export default {
             console.log(this.$root.Bus)
             console.log('搜索中...');
             document.cookie="content_search"+"="+this.searchTerm
-             var url = "http://211.159.186.183/model/search.php"; 
+             var url = "http://sornhub.com/model/search.php"; 
             this.$http.options.emulateJSON = true;
             let formData = new FormData();
             if(this.searchTerm!=""){

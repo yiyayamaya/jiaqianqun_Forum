@@ -57,7 +57,7 @@
             login: function(){                           
                   
                  
-                  var url="http://211.159.186.183/model/login.php"
+                  var url="http://sornhub.com/model/login.php"
                   this.$http.options.emulateJSON = true;
                   let formData = new FormData();
                   formData.append('username', this.username);
@@ -114,7 +114,7 @@
             },
             register: function(){
                                 
-                                var url="http://211.159.186.183/model/register.php"
+                                var url="http://sornhub.com/model/register.php"
                                  let formData = new FormData();
                                 formData.append('username', this.username);
                                 formData.append('password',this.password1);

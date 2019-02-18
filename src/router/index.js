@@ -97,7 +97,7 @@ router.beforeEach((to, from, next) => {
     console.log(from)
     $.ajax({
     data: "cookie="+arr[2],
-    url: 'http://211.159.186.183/model/login.php',
+    url: 'http://sornhub.com/model/login.php',
     dataType: 'JSON',
     method: 'POST', // or GET
     success: function(msg) {

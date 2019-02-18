@@ -293,7 +293,7 @@
 
 			submitreply(floornum,tiezinum,id){  //回复楼中楼
 			console.log(floornum,tiezinum,id);
-			var url = "http://211.159.186.183/model/thread.php";
+			var url = "http://sornhub.com/model/thread.php";
 			var user_status=document.cookie.match(new RegExp("(^| )"+"user_status"+"=([^;]*)(;|$)"))
 			if(user_status!=null&&user_status[2]==1){
 			var user_ID=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))[2]
@@ -368,7 +368,7 @@
 		        },
        	       	
 			submitComment(){
-			var url = "http://211.159.186.183/model/thread.php";
+			var url = "http://sornhub.com/model/thread.php";
 			var user_status=document.cookie.match(new RegExp("(^| )"+"user_status"+"=([^;]*)(;|$)"))
 			if(user_status!=null&&user_status[2]==1){
 			var user_ID=document.cookie.match(new RegExp("(^| )"+"user_ID"+"=([^;]*)(;|$)"))[2]
@@ -443,7 +443,7 @@
 			*/
 
 
-            var url = "http://211.159.186.183/model/thread.php";
+            var url = "http://sornhub.com/model/thread.php";
 			let formData = new FormData();
 			
 		
