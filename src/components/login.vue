@@ -152,6 +152,7 @@
                                    //用户名已存在
                                    }else{
                                        //未知错误
+                                       console.log(response.body)
                                        console.log('fail to register!');
                                        //todo 弹出用户名密码不匹配的对话框
                                        this.password = ''; //绝大多数情况是密码输错，所以密码清空重输
