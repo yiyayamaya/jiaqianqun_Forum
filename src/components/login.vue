@@ -21,7 +21,7 @@
                     <label for="">Password</label>
                     <input type="password" class="password1" v-model="password1"/>             
                     <label for="">Confirm Password</label>
-                    <input type="password" class="password2" v-model="password2"/>
+                    <input type="password" class="password2" v-model="password2" @keyup.enter="register"/>
                     <input @click="register" type="button" class="button" value="create"/>
                     <p class="message">已经注册过? <a href="#" @click="changePage">登陆</a></p>
                 </form>
@@ -31,7 +31,7 @@
                     <label for="">Password</label>
                     <input type="password" class="password" v-model="password" @keyup.enter="login"/>
                     <input @click="login" type="button" class="button" value="login"/>
-                    <p class="message">没注册过？ <a href="#" @click="changePage"> 注册</a></p>
+                    <p class="message">没注册过？ <a href="#" @click="changePage" > 注册</a></p>
                 </form>
             </div>
         </div>
@@ -128,7 +128,7 @@
                                      //注册成功
                                        console.log("success!");
                                        $('<div>').appendTo('body').addClass('alert alert-info').html('注册成功').show().delay(1000).fadeOut();
-                                       this.$router.push('/');
+                                       this.showRegister = !this.showRegister;
                                        //todo 登录成功则从后端数据中取出session信息保存登录状态(可能需要跳转);登录不成功则提示用户不成功
                                        //todo 跳转至首页
                                    }else if(response.body[j]==1){
