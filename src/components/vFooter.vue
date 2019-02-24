@@ -191,6 +191,7 @@
 </template>
 
 <script>
+
 export default {
 	data () {
 		return {
@@ -199,7 +200,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
+@import '../assets/css/base.css';
 .footer {
 	width: 1226px;
 	height: auto;

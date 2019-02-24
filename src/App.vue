@@ -22,6 +22,7 @@ import vFooter from './components/vFooter'
 </script>
 
 <style>
+
 #app {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     -webkit-font-smoothing: antialiased;
@@ -31,4 +32,5 @@ import vFooter from './components/vFooter'
 .v-header{
     position: fixed; /*todo 钟说头部固定比较好 这个无法实现效果*/
 }
+
 </style>
