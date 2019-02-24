@@ -352,7 +352,7 @@
         /*height: 100%;*/
         width: 100%;
         /*background-color: #f9f9f9;*/
-        position: absolute;
+       
         z-index: 100;
     }
     .person-inner {

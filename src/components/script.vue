@@ -490,7 +490,7 @@
 	.script {
         height: auto;
         width: 100%;
-        position: absolute;
+       
         border: none;
 /*        background-color: #fff;*/
     }

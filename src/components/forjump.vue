@@ -39,7 +39,7 @@
     .overview {
         
         width: 100%;
-        position: absolute;
+        
         z-index: 100;
     }
     .overview-inner {

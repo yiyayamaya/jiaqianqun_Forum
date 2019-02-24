@@ -23,7 +23,7 @@
                     <label for="">Confirm Password</label>
                     <input type="password" class="password2" v-model="password2" @keyup.enter="register"/>
                     <input @click="register" type="button" class="button" value="create"/>
-                    <p class="message">已经注册过? <a href="#" @click="changePage">登陆</a></p>
+                    <p class="message">已经注册过?? <a href="#" @click="changePage">登陆</a></p>
                 </form>
                 <form class="login-form" action="" v-if="!showRegister">
                     <label for="">Username</label>
@@ -182,7 +182,7 @@
         background: linear-gradient(to left, #76b852, #8DC26F);*/
         /*background-color: #f9f9f9; 原效果 偏米白*/
 /*        background-color: #fff; */
-        position: absolute;
+       
         z-index: 100;
         overflow: hidden;
     }

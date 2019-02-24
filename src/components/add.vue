@@ -274,7 +274,7 @@
     .new {
         height: auto;
         width: 100%;
-        position: absolute;
+       
         border: none;
     }
     .new .new-inner {

@@ -2,7 +2,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // import Home from '../components/search.vue'
-import Search from '../components/search.vue'
+
 import Login from '../components/login.vue'
 import List from '../components/list.vue'
 import Add from '../components/add.vue'

@@ -5,6 +5,7 @@
             <v-header>
             </v-header>
             <router-view ></router-view>
+            <v-footer></v-footer>
         <!-- <router-link to="/list"></router-link> -->
         </div>
     </div>
@@ -14,8 +15,9 @@
 <script>
 import Vue from 'vue'
 import vHeader from './components/vHeader'
+import vFooter from './components/vFooter'
     export default {
-        components: {vHeader},
+        components: {vHeader,vFooter},
     }
 </script>
 
