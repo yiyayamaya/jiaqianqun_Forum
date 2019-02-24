@@ -173,17 +173,17 @@
 							<li class="link-item"><a href="javascript:void(0)">TEST Region</a></li>
 						</ul>
 						<p class="explan-txt">
-							©<a href="">mi.com</a> 京ICP证xxxx号 京ICP备xxxx号 <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" target="_blank">京公网安备11010802020134号 </a> <a href="//c1.mifile.cn/f/i/2013/cn/jingwangwen.jpg" target="_blank">京网文[2014]0059-0009号</a><br/>
+							©<a href="">mi.com</a> 京ICP证xxxx号 京ICP备xxxx号 <a href="" target="_blank">京公网安备xx号 </a> <a href="" target="_blank">京网文xx号</a><br/>
 							 违法和不良信息举报电话：185-xxxx-xxx，本网站所列数据，纯属虚构
 						</p>
 					</div>
-					<img class="logo-explan logo-explan-first" src="http://privacy-policy.truste.com/privacy-seal/seal?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8" alt="" />
-					<img class="logo-explan" src="http://s01.mifile.cn/i/v-logo-2.png" alt="" />
-					<img class="logo-explan" src="http://s01.mifile.cn/i/v-logo-1.png" alt="" />
-					<img class="logo-explan" src="http://s01.mifile.cn/i/v-logo-3.png" alt="" />
+					<img class="logo-explan logo-explan-first" src="" alt="" />
+					<img class="logo-explan" src="" alt="" />
+					<img class="logo-explan" src="" alt="" />
+					<img class="logo-explan" src="" alt="" />
 				</div>
 				<p class="footer-desc">
-					这个字体好漂亮啊
+					这里啥也没有
 				</p>
 			</div>
 		</div>
@@ -353,7 +353,7 @@ export default {
 		width: 267px;
 		height: 19px;
 		margin: 30px auto 0;
-		background: url('http://s01.mifile.cn/i/slogan2016.png') center center no-repeat;
+		background: url('') center center no-repeat;
 	}
 }
 </style>
