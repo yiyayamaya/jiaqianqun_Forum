@@ -173,7 +173,7 @@
 							<li class="link-item"><a href="javascript:void(0)">TEST Region</a></li>
 						</ul>
 						<p class="explan-txt">
-							©<a href="">mi.com</a> 京ICP证xxxx号 京ICP备xxxx号 <a href="" target="_blank">京公网安备xx号 </a> <a href="" target="_blank">京网文xx号</a><br/>
+							©<a href="">sornhub.com</a> 京ICP证xxxx号 京ICP备xxxx号 <a href="" target="_blank">京公网安备xx号 </a> <a href="" target="_blank">京网文xx号</a><br/>
 							 违法和不良信息举报电话：185-xxxx-xxx，本网站所列数据，纯属虚构
 						</p>
 					</div>
