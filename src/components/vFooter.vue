@@ -202,11 +202,17 @@ export default {
 
 <style lang="less">
 @import '../assets/css/base.css';
+
+
 .footer {
 	width: 1226px;
 	height: auto;
 	margin: 0 auto;
 	padding-bottom: 20px;
+	a {
+  text-decoration: none;
+  color: #333;
+}
 }
 
 .footer-service {
