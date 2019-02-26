@@ -174,7 +174,7 @@
 						</ul>
 						<p class="explan-txt">
 							©<a href="">sornhub.com</a> 京ICP证xxxx号 京ICP备xxxx号 <a href="" target="_blank">京公网安备xx号 </a> <a href="" target="_blank">京网文xx号</a><br/>
-							 违法和不良信息举报电话：185-xxxx-xxx，本网站所列数据，纯属虚构
+							 违法和不良信息举报电话：185-xxxx-xxx，本网站所列数据，纯属虚构 这里的修改不矛盾啊
 						</p>
 					</div>
 					<img class="logo-explan logo-explan-first" src="" alt="" />
